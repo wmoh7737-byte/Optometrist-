@@ -1,0 +1,32 @@
+name: mudaqiq_alnazar
+description: "مدقق النظر — تطبيق للعناية بالعين أثناء استخدام الجوال"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # حساس القرب لاكتشاف اقتراب الشاشة من الوجه
+  proximity_sensor: ^1.0.3
+
+  # الاهتزاز عند التحذير
+  vibration: ^1.8.4
+
+  # حفظ إعدادات المستخدم محلياً
+  shared_preferences: ^2.2.2
+
+  # خطوط عربية جميلة (Cairo / Almarai)
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
